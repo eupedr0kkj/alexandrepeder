@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universidade Estadual de Maringá </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">UEM</div>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        <nav id="navMenu">
+            <a href="#" onclick="showSection('noticias')">Notícias</a>
+            <a href="#" onclick="showSection('missao')">Missão</a>
+            <a href="#" onclick="showSection('campus')">Campus</a>
+            <a href="#" onclick="showSection('graduacao')">Graduação</a>
+            <a href="#" onclick="showSection('vestibular')">Vestibular</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="noticias" class="content-section active">
+            <h1>Notícias</h1>
+            <p>Últimas notícias e eventos da UEM.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoMb9_tMUTD3XxLLUIKX1FFh_XKrGilVFdgw&s" alt="Imagem de notícias">
+        </section>
+
+        <section id="missao" class="content-section">
+            <h1>Missão</h1>
+            <p>Produzir conhecimento por meio da pesquisa, organizar, articular e disseminar os saberes por meio do ensino e da extensão, para formar cidadãos, profissionais e lideranças para a sociedade.</p>
+        </section>
+
+        <section id="campus" class="content-section">
+            <h1>Câmpus</h1>
+            <p>A UEM é uma universidade com características regionais e está presente em diversas cidades do Paraná.</p>
+        </section>
+
+        <section id="graduacao" class="content-section">
+            <h1>Graduação</h1>
+            <p>A Universidade Estadual de Maringá possui uma característica multi-campi, estando presente em diversas cidades do Estado do Paraná. Oferece cursos de graduação em grandes áreas como: Agrárias, Biológicas, Exatas, Humanas, Tecnológicas, Saúde e Sociais.</p>
+        </section>
+
+        <section id="vestibular" class="content-section">
+            <h1>Vestibular</h1>
+            <p>Início das inscrições - Inverno de 2025.</p>
+            <p>Tire suas dúvidas em nossa secretaria virtual - (XXX) XXXX-XXXX.</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
